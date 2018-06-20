@@ -1,0 +1,9 @@
+{
+  "name": "WorkerPlacementApolloGraphql",
+  "version": "0.1.0",
+  "description": "Playing with graphql",
+  "main": "index.js",
+  "author": "Scott M Parrish",
+  "license": "MIT",
+  "private": true
+}
