@@ -12,7 +12,8 @@ provider:
 custom:
   serverless-offline:
     port: 4000
-  webpackIncludeModules: true
+  webpack:
+    IncludeModules: true
   dynamodb:
     start:
       port: 8000
@@ -59,6 +60,21 @@ resources:
           ReadCapacityUnits: 10
           WriteCapacityUnits: 10
         TableName: 'Users'
+    GameTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        KeySchema:
+        -
+          AttributeName: id
+          KeyType: HASH
+        AttributeDefinitions:
+        -
+          AttributeName: id
+          AttributeType: S
+        ProvisionedThroughput:
+          ReadCapacityUnits: 10
+          WriteCapacityUnits: 10
+        TableName: 'Games'
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events

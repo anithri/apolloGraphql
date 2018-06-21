@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "worker1",
+      "name": "Worker One"
+    },
+    {
+      "id": "worker2",
+      "name": "Worker Two"
+    },
+    {
+      "id": "worker3",
+      "name": "Worker Three"
+    },
+    {
+      "id": "worker4",
+      "name": "Worker Four"
+    }
+  ]
+}

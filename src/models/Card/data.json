@@ -1,0 +1,304 @@
+{
+  "items": [
+    {
+      "id": "card1",
+      "name": "Test Card #1",
+      "requirement_ids": ["worker4", "worker1"]
+    },
+    {
+      "id": "card2",
+      "name": "Test Card #2",
+      "requirement_ids": ["worker1", "worker4"]
+    },
+    {
+      "id": "card3",
+      "name": "Test Card #3",
+      "requirement_ids": ["worker3", "worker1"]
+    },
+    {
+      "id": "card4",
+      "name": "Test Card #4",
+      "requirement_ids": ["worker1", "worker3"]
+    },
+    {
+      "id": "card5",
+      "name": "Test Card #5",
+      "requirement_ids": ["worker2", "worker1"]
+    },
+    {
+      "id": "card6",
+      "name": "Test Card #6",
+      "requirement_ids": ["worker1", "worker2"]
+    },
+    {
+      "id": "card7",
+      "name": "Test Card #7",
+      "requirement_ids": ["worker1", "worker4"]
+    },
+    {
+      "id": "card8",
+      "name": "Test Card #8",
+      "requirement_ids": ["worker4", "worker1"]
+    },
+    {
+      "id": "card9",
+      "name": "Test Card #9",
+      "requirement_ids": ["worker3", "worker4"]
+    },
+    {
+      "id": "card10",
+      "name": "Test Card #10",
+      "requirement_ids": ["worker4", "worker3"]
+    },
+    {
+      "id": "card11",
+      "name": "Test Card #11",
+      "requirement_ids": ["worker2", "worker4"]
+    },
+    {
+      "id": "card12",
+      "name": "Test Card #12",
+      "requirement_ids": ["worker4", "worker2"]
+    },
+    {
+      "id": "card13",
+      "name": "Test Card #13",
+      "requirement_ids": ["worker1", "worker3"]
+    },
+    {
+      "id": "card14",
+      "name": "Test Card #14",
+      "requirement_ids": ["worker3", "worker1"]
+    },
+    {
+      "id": "card15",
+      "name": "Test Card #15",
+      "requirement_ids": ["worker4", "worker3"]
+    },
+    {
+      "id": "card16",
+      "name": "Test Card #16",
+      "requirement_ids": ["worker3", "worker4"]
+    },
+    {
+      "id": "card17",
+      "name": "Test Card #17",
+      "requirement_ids": ["worker2", "worker3"]
+    },
+    {
+      "id": "card18",
+      "name": "Test Card #18",
+      "requirement_ids": ["worker3", "worker2"]
+    },
+    {
+      "id": "card19",
+      "name": "Test Card #19",
+      "requirement_ids": ["worker1", "worker2"]
+    },
+    {
+      "id": "card20",
+      "name": "Test Card #20",
+      "requirement_ids": ["worker2", "worker1"]
+    },
+    {
+      "id": "card21",
+      "name": "Test Card #21",
+      "requirement_ids": ["worker4", "worker2"]
+    },
+    {
+      "id": "card22",
+      "name": "Test Card #22",
+      "requirement_ids": ["worker2", "worker4"]
+    },
+    {
+      "id": "card23",
+      "name": "Test Card #23",
+      "requirement_ids": ["worker3", "worker2"]
+    },
+    {
+      "id": "card24",
+      "name": "Test Card #24",
+      "requirement_ids": ["worker2", "worker3"]
+    },
+    {
+      "id": "card25",
+      "name": "Test Card #25",
+      "requirement_ids": ["worker1", "worker4", "worker4"]
+    },
+    {
+      "id": "card26",
+      "name": "Test Card #26",
+      "requirement_ids": ["worker1", "worker4", "worker3"]
+    },
+    {
+      "id": "card27",
+      "name": "Test Card #27",
+      "requirement_ids": ["worker1", "worker4", "worker2"]
+    },
+    {
+      "id": "card28",
+      "name": "Test Card #28",
+      "requirement_ids": ["worker1", "worker3", "worker4"]
+    },
+    {
+      "id": "card29",
+      "name": "Test Card #29",
+      "requirement_ids": ["worker1", "worker3", "worker3"]
+    },
+    {
+      "id": "card30",
+      "name": "Test Card #30",
+      "requirement_ids": ["worker1", "worker3", "worker2"]
+    },
+    {
+      "id": "card31",
+      "name": "Test Card #31",
+      "requirement_ids": ["worker1", "worker2", "worker4"]
+    },
+    {
+      "id": "card32",
+      "name": "Test Card #32",
+      "requirement_ids": ["worker1", "worker2", "worker3"]
+    },
+    {
+      "id": "card33",
+      "name": "Test Card #33",
+      "requirement_ids": ["worker1", "worker2", "worker2"]
+    },
+    {
+      "id": "card34",
+      "name": "Test Card #34",
+      "requirement_ids": ["worker4", "worker1", "worker1"]
+    },
+    {
+      "id": "card35",
+      "name": "Test Card #35",
+      "requirement_ids": ["worker4", "worker1", "worker3"]
+    },
+    {
+      "id": "card36",
+      "name": "Test Card #36",
+      "requirement_ids": ["worker4", "worker1", "worker2"]
+    },
+    {
+      "id": "card37",
+      "name": "Test Card #37",
+      "requirement_ids": ["worker4", "worker3", "worker1"]
+    },
+    {
+      "id": "card38",
+      "name": "Test Card #38",
+      "requirement_ids": ["worker4", "worker3", "worker3"]
+    },
+    {
+      "id": "card39",
+      "name": "Test Card #39",
+      "requirement_ids": ["worker4", "worker3", "worker2"]
+    },
+    {
+      "id": "card40",
+      "name": "Test Card #40",
+      "requirement_ids": ["worker4", "worker2", "worker1"]
+    },
+    {
+      "id": "card41",
+      "name": "Test Card #41",
+      "requirement_ids": ["worker4", "worker2", "worker3"]
+    },
+    {
+      "id": "card42",
+      "name": "Test Card #42",
+      "requirement_ids": ["worker4", "worker2", "worker2"]
+    },
+    {
+      "id": "card43",
+      "name": "Test Card #43",
+      "requirement_ids": ["worker3", "worker1", "worker1"]
+    },
+    {
+      "id": "card44",
+      "name": "Test Card #44",
+      "requirement_ids": ["worker3", "worker1", "worker4"]
+    },
+    {
+      "id": "card45",
+      "name": "Test Card #45",
+      "requirement_ids": ["worker3", "worker1", "worker2"]
+    },
+    {
+      "id": "card46",
+      "name": "Test Card #46",
+      "requirement_ids": ["worker3", "worker4", "worker1"]
+    },
+    {
+      "id": "card47",
+      "name": "Test Card #47",
+      "requirement_ids": ["worker3", "worker4", "worker4"]
+    },
+    {
+      "id": "card48",
+      "name": "Test Card #48",
+      "requirement_ids": ["worker3", "worker4", "worker2"]
+    },
+    {
+      "id": "card49",
+      "name": "Test Card #49",
+      "requirement_ids": ["worker3", "worker2", "worker1"]
+    },
+    {
+      "id": "card50",
+      "name": "Test Card #50",
+      "requirement_ids": ["worker3", "worker2", "worker4"]
+    },
+    {
+      "id": "card51",
+      "name": "Test Card #51",
+      "requirement_ids": ["worker3", "worker2", "worker2"]
+    },
+    {
+      "id": "card52",
+      "name": "Test Card #52",
+      "requirement_ids": ["worker2", "worker1", "worker1"]
+    },
+    {
+      "id": "card53",
+      "name": "Test Card #53",
+      "requirement_ids": ["worker2", "worker1", "worker4"]
+    },
+    {
+      "id": "card54",
+      "name": "Test Card #54",
+      "requirement_ids": ["worker2", "worker1", "worker3"]
+    },
+    {
+      "id": "card55",
+      "name": "Test Card #55",
+      "requirement_ids": ["worker2", "worker4", "worker1"]
+    },
+    {
+      "id": "card56",
+      "name": "Test Card #56",
+      "requirement_ids": ["worker2", "worker4", "worker4"]
+    },
+    {
+      "id": "card57",
+      "name": "Test Card #57",
+      "requirement_ids": ["worker2", "worker4", "worker3"]
+    },
+    {
+      "id": "card58",
+      "name": "Test Card #58",
+      "requirement_ids": ["worker2", "worker3", "worker1"]
+    },
+    {
+      "id": "card59",
+      "name": "Test Card #59",
+      "requirement_ids": ["worker2", "worker3", "worker4"]
+    },
+    {
+      "id": "card60",
+      "name": "Test Card #60",
+      "requirement_ids": ["worker2", "worker3", "worker3"]
+    }
+  ]
+}

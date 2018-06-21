@@ -1,9 +1,8 @@
-import User from './class'
-import { getAll, getItem } from 'utils/mapper'
+import { getUsers, getUser } from './mapper'
 
 const Query = {
-  user: (root, args) => getItem('Users', args.id, User),
-  users: (root, args) => getAll('Users', User),
+  user: getUser,
+  users: getUsers,
 }
 
 const Mutation = {}
