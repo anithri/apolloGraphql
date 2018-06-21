@@ -3,9 +3,27 @@
 service: apolloGraphql
 plugins:
   - serverless-webpack
+  - serverless-dynamodb-local
+  - serverless-offline
 provider:
   name: aws
   runtime: nodejs8.10
+
+custom:
+  serverless-offline:
+    port: 4000
+  webpackIncludeModules: true
+  dynamodb:
+    start:
+      port: 8000
+      inMemory: true
+      migrate: true
+      seed: true
+    seed:
+      test:
+        sources:
+        - table: Users
+          sources: [seed-data/Users.json]
 
 functions:
   hello:
@@ -23,6 +41,25 @@ functions:
     - http:
         path: graphiql
         method: get
+
+resources:
+  Resources:
+    UserTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        KeySchema:
+        -
+          AttributeName: id
+          KeyType: HASH
+        AttributeDefinitions:
+        -
+          AttributeName: id
+          AttributeType: S
+        ProvisionedThroughput:
+          ReadCapacityUnits: 10
+          WriteCapacityUnits: 10
+        TableName: 'Users'
+
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details

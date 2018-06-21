@@ -1,4 +1,4 @@
-'use strict';``
+'use strict';
 import {graphqlLambda} from 'apollo-server-lambda'
 import schema from 'schema'
 
