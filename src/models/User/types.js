@@ -7,6 +7,11 @@ const userTypes = `
   type UserConnection {
     items: [User!]!
   }
+  
+  extend type Query {
+    user: User
+    users: UserConnection
+  }
 `
 
 export default userTypes

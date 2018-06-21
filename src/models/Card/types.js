@@ -8,6 +8,11 @@ const cardTypes = `
   type CardConnection {
     items: [Card!]!
   }
+  
+  extend type Query {
+    card(id: ID!): Card
+    cards: CardConnection
+  }
 `
 
 export default cardTypes

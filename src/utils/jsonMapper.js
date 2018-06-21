@@ -1,17 +1,16 @@
-export function getAll(TableName, modelClass) {
-  return docClient
-    .scan({TableName})
-    .promise()
-    .then(result => {
-      return {
-        items: result.Items.map(i => new modelClass(i))
-      }
-    })
-}
+export default function jsonMapper(jsonData, modelClass, ...classArgs) {
+  const all = jsonData.items.map(i => new modelClass(i, ...classArgs))
+  const byId = all.reduce((hsh, item) => {
+    hsh[item.id] = item
+    return hsh
+  }, {})
 
-export function getItem(TableName, id, modelClass) {
-  return docClient
-    .get({TableName, Key: {id}})
-    .promise()
-    .then(result => result.Item ? new modelClass(result.Item) : null)
+  return {
+    getItem: function(root, args) {
+      return byId[args.id]
+    },
+    getAll: function(root, args) {
+      return {items: all}
+    },
+  }
 }
