@@ -1,3 +1,4 @@
+import AWS from 'aws-sdk'
 import dynamodb from 'serverless-dynamodb-client'
 
 let docClient
@@ -24,4 +25,8 @@ export function getItem(TableName, id, modelClass) {
     .get({TableName, Key: {id}})
     .promise()
     .then(result => result.Item ? new modelClass(result.Item) : null)
+}
+
+export function putItem() {
+
 }

@@ -24,7 +24,10 @@
     "serverless-dynamodb-local": "^0.2.30",
     "serverless-offline": "^3.25.4",
     "serverless-webpack": "^5.1.5",
-    "webpack": "^4.12.0"
+    "webpack": "^4.12.0",
+    "aws-sdk": "latest",
+    "faker": "latest",
+    "uuid": "latest"
   },
   "scripts": {
     "start": "yarn serverless dynamodb install && serverless offline start",

@@ -1,6 +1,11 @@
+import uuid from 'uuid/v4'
+import Faker from 'faker'
+
 export default class Game {
-  constructor(args) {
-    this.id = args.id
-    this.name = args.name
+
+  static default = () => {
+    return {
+
+    }
   }
 }

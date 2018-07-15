@@ -45,7 +45,7 @@ functions:
 
 resources:
   Resources:
-    UserTable:
+    BoardTable:
       Type: 'AWS::DynamoDB::Table'
       Properties:
         KeySchema:
@@ -59,7 +59,22 @@ resources:
         ProvisionedThroughput:
           ReadCapacityUnits: 10
           WriteCapacityUnits: 10
-        TableName: 'Users'
+        TableName: 'Boards'
+    DeckTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        KeySchema:
+        -
+          AttributeName: id
+          KeyType: HASH
+        AttributeDefinitions:
+        -
+          AttributeName: id
+          AttributeType: S
+        ProvisionedThroughput:
+          ReadCapacityUnits: 10
+          WriteCapacityUnits: 10
+        TableName: 'Decks'
     GameTable:
       Type: 'AWS::DynamoDB::Table'
       Properties:
@@ -75,6 +90,36 @@ resources:
           ReadCapacityUnits: 10
           WriteCapacityUnits: 10
         TableName: 'Games'
+    PlayerTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        KeySchema:
+        -
+          AttributeName: id
+          KeyType: HASH
+        AttributeDefinitions:
+        -
+          AttributeName: id
+          AttributeType: S
+        ProvisionedThroughput:
+          ReadCapacityUnits: 10
+          WriteCapacityUnits: 10
+        TableName: 'Players'
+    UserTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        KeySchema:
+        -
+          AttributeName: id
+          KeyType: HASH
+        AttributeDefinitions:
+        -
+          AttributeName: id
+          AttributeType: S
+        ProvisionedThroughput:
+          ReadCapacityUnits: 10
+          WriteCapacityUnits: 10
+        TableName: 'Users'
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events

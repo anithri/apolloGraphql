@@ -1,6 +1,9 @@
 import { getWorker, getWorkers } from './mapper'
 
-const Query = {}
+const Query = {
+  worker: getWorker,
+  workers: getWorkers
+}
 
 const Mutation = {}
 
